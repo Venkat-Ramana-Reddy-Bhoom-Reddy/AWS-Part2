@@ -19,33 +19,39 @@ This project concentrates on details of protection, governance and monitoring of
 * The process involves 3 different steps explained in detail below:
 ### Step 15: Data Protection
 * This **Data Protection** providing protectio to data in many ways like encryption or access granting or other methods.<br>
-![step 15-01-kms key creation](https://github.com/user-attachments/assets/9baae4bf-54b8-4de2-91b8-fcdf9f673fef)
+![fig10](https://github.com/user-attachments/assets/9381e20a-f07e-48d5-8826-3f701e3cb7e1)
 * The above image shows how I created a KMS key for encryption and decryption of data.<br>
-![step 15-01-kms key information](https://github.com/user-attachments/assets/9ea80654-31a3-4c70-86c5-4a9be409c061)
-* The above image shows configuration etails of the KMS key.<br>
-![step 15-02-S3 bucket properties for encryption and bucket versioning](https://github.com/user-attachments/assets/43ccdf8c-fe75-46cf-9ad7-59e0b09e414e)
-* The above image shows the changes made to enable encryption and bucket versioning for S3 bucket.<br>
-![step 15-02-S3 bucket replication rule information](https://github.com/user-attachments/assets/2947229f-1f66-4a8a-b7c2-47464b6b5b46)
+![appx005](https://github.com/user-attachments/assets/c75a77ce-b627-4ebd-9e94-269134c42a24)
+* The above image shows configuration details of the KMS key.<br>
+![fig11](https://github.com/user-attachments/assets/6a5d1852-d9c0-44b2-ad4f-12beb04ce247)
+ The above image shows the changes made to enable encryption and bucket versioning for S3 bucket.<br>
+![fig13](https://github.com/user-attachments/assets/d56cc677-a0f4-454f-b7c1-56ea37bdb434)
 * The above image shows the changes made to enable replication rule for S3 bcket.<br>
-![step 15-02-S3-Backup bucket properties for encryption and bucket versioning](https://github.com/user-attachments/assets/6639ae34-08a5-4dd7-a6b6-39293e96227d)
-* The above image shows the changes made to enable encryption and bucket versioning for S3 backp bucket.<br>
+![fig12](https://github.com/user-attachments/assets/5fdf14ad-895c-47ef-8cf4-6c6193a9416d)
+* The above image shows the changes made to enable encryption and bucket versioning for S3 backp bucket.
 ### Step 16: Data Governance
 * Data governance refers to the policies, standards, and practices for managing and using data in a way that aligns with organizational goals and regulatory requirements to ensures the quality, integrity, and security of data across its lifecycle.
-![step 16-01-trusted folder creation in S3 bucket](https://github.com/user-attachments/assets/bd8281fa-1c11-4176-b18a-6a32f4145a8f)
+![fig24](https://github.com/user-attachments/assets/ecde8087-864c-48ea-9e63-4e776e7c80dc)
 * The above image shows the trusted folder created in S3 bucket.<br>
-![step 16-02-etl design](https://github.com/user-attachments/assets/1c43b6bb-e499-40d1-b86e-beaa3bc8cb96)
+![fig25](https://github.com/user-attachments/assets/e03bcc60-862c-4676-af9c-7ebd4e9cb3de)
 * The above image shows the ETL designed to mask sensitive data and store it in trusted folder.<br>
-![step 16-02-etl output](https://github.com/user-attachments/assets/c6e30971-5a43-45c4-bd93-57b2a74fb538)
+![appx015-1](https://github.com/user-attachments/assets/c165de7b-8811-437e-affa-5b5b5cd9b1a6)
 * The above image shows the results of eTL design.<br>
-![step 16-03-workflow details](https://github.com/user-attachments/assets/fda485fa-c208-4af7-9ac9-3016fbae148c)
+![appx017](https://github.com/user-attachments/assets/092011dd-cf8b-41e9-b0d7-6240e00bce44)
 * The above image shows the workflow designed.<br>
+![appx015-2](https://github.com/user-attachments/assets/160d8434-e60c-4e80-80e8-82b8a36c1305)
+* The above image shows the job run details.<br>
+![appx018](https://github.com/user-attachments/assets/33a6ab12-36bf-4dfa-bd7c-d19bfd8aa381)
+* The above image shows the Data Quality details.<br>
+![appx016](https://github.com/user-attachments/assets/837db789-1ec6-4641-8b74-f0dd8097461e)
+* The above image shows the job scheduling.<br>
 ### Step 17: Data Monitoring
 * Data monitoring involves continuously tracking data usage and access to ensure compliance with governance policies, detect potential breaches, and maintain data integrity.
-![step 17-01-alarm creation in cloudwatch](https://github.com/user-attachments/assets/520e08ea-824f-4eb3-a517-4532b2a83481)
+![appx025](https://github.com/user-attachments/assets/ff19d665-842d-4c52-8f49-21fc963c16d8)
 * The above image shows alarm information.<br>
-![step 17-01-dashboard creation in cloudwatch](https://github.com/user-attachments/assets/dc128e27-c2ff-4374-bb5c-cdcb509d4c17)
+![fig36](https://github.com/user-attachments/assets/c580daf2-306c-4429-9550-22187d9afada)
 * The above image shows the dashboard.<br>
-![step 17-02-cloudtrail created to track user activity](https://github.com/user-attachments/assets/5ae5a7ed-8aed-45ee-b45d-26f36bd33e09)
+![fig37](https://github.com/user-attachments/assets/2d64ad93-8bbd-46f4-a124-0ab8ad64dbfc)
 * The above image shows the cloud trail created.<br>
-![step 17-02-s3 bucket created automatically for cloudtrail to track user activity](https://github.com/user-attachments/assets/26df573e-70f0-461a-b200-d26483c13238)
+![fig38](https://github.com/user-attachments/assets/c28ed257-cd1a-439b-a7f0-2aaa06c38ce3)
 * The above image shows the cloud trail outcome stored in S3 buckets.<br>
